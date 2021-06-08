@@ -1,0 +1,37 @@
+h1{
+ color: rgb(0, 0, 0);   
+}
+
+*{
+    border: solid;
+}
+
+.header{
+    background-color: "#b4c0d6";
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: darksalmon;
+}
+
+.game{
+  background-color: rgba(170, 101, 199, 0.247);  
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item{
+ background-color: steelblue;   
+}
+
+.footer{
+display: flex; 
+justify-content: flex-end;   
+}
+
+p,h2{
+    text-align: center;
+}
